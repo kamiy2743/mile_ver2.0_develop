@@ -55,7 +55,7 @@ function generateItemElements() {
                     rawElement += `
                         <td class="item-container">
                             <div class="item-main" mile="${mile}" index="${index++}" state="0">
-                                <img class="item-image" src="../image/${img}.png">
+                                <img class="item-image" src="./image/${img}.png">
                                 <p class="info-text">${info_text}</p>
                             </div>
                         </td>
@@ -151,7 +151,7 @@ $(".all-delete").click(function() {
 
 // 画像変換ボタン
 $(".convert-btn").click(function() {
-    location.href = "../ConvertPage/convertPage.html";
+    location.href = "./ConvertPage/convertPage.html";
 });
 
 
