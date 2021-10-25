@@ -49,48 +49,6 @@ body header .title-wrapper .app-title {
   margin-left: 7px;
   letter-spacing: 1px;
 }
-body main .explain-wrapper {
-  margin: 20px 0;
-}
-body main .explain-wrapper .explain-container .explain-title {
-  font-size: 18px;
-  padding: 0 5px;
-  margin: 0 5px 10px;
-  border-bottom: 1px solid #b3b3b3;
-}
-body main .explain-wrapper .explain-container .explain-text {
-  margin: 10px;
-  font-size: 11px;
-}
-body main .captured-image-wrapper {
-  margin-bottom: 100px;
-}
-body main .captured-image-wrapper .captured-image-Container {
-  width: 295px;
-  margin: 30px auto;
-  filter: drop-shadow(0 0 7.5px #797979);
-}
-body main .captured-image-wrapper .captured-image-Container .captured-image {
-  width: 295px;
-}
-body main .captured-image-wrapper .download-btn {
-  width: 130px;
-  background-color: #95c0ff;
-  font-size: 13px;
-  text-align: center;
-  padding: 10px 20px;
-  margin: 0 auto;
-  border: 1px solid #507cff;
-  border-radius: 5px;
-}
-body main .captured-image-wrapper .download-btn .fa-download {
-  margin-left: -5px;
-  margin-right: 5px;
-}
-body main .captured-image-wrapper .download-btn a {
-  color: #4a4a4a;
-  text-decoration: none;
-}
 body main .capture-wrapper {
   width: 964px;
   background-color: #fff;
@@ -115,7 +73,7 @@ body main .capture-wrapper .capture-title .icon-image img {
   margin-top: 20px;
 }
 body main .capture-wrapper .capture-title .app-title {
-  font-size: 49px;
+  font-size: 48px;
   font-weight: normal;
   line-height: 88px;
   margin-top: 30px;
@@ -199,4 +157,46 @@ body main .capture-wrapper .capture-table .item-container .item-main .info-text 
   transform-origin: bottom;
   transform: scale(0.8);
   margin-top: -10px;
+}
+body main .explain-wrapper {
+  margin: 20px 0;
+}
+body main .explain-wrapper .explain-container .explain-title {
+  font-size: 18px;
+  padding: 0 5px;
+  margin: 0 5px 10px;
+  border-bottom: 1px solid #b3b3b3;
+}
+body main .explain-wrapper .explain-container .explain-text {
+  margin: 10px;
+  font-size: 11px;
+}
+body main .captured-image-wrapper {
+  margin-bottom: 100px;
+}
+body main .captured-image-wrapper .captured-image-Container {
+  width: 295px;
+  margin: 30px auto;
+  filter: drop-shadow(0 0 7.5px #797979);
+}
+body main .captured-image-wrapper .captured-image-Container .captured-image {
+  width: 295px;
+}
+body main .captured-image-wrapper .download-btn {
+  width: 130px;
+  background-color: #95c0ff;
+  font-size: 13px;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 0 auto;
+  border: 1px solid #507cff;
+  border-radius: 5px;
+}
+body main .captured-image-wrapper .download-btn .fa-download {
+  margin-left: -5px;
+  margin-right: 5px;
+}
+body main .captured-image-wrapper .download-btn a {
+  color: #4a4a4a;
+  text-decoration: none;
 }/*# sourceMappingURL=convertPage.css.map */
