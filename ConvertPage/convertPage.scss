@@ -64,51 +64,6 @@ body {
     }
 
     main {
-        .explain-wrapper {
-            margin: 20px 0;
-            .explain-container {
-                .explain-title {
-                    font-size: 18px;
-                    padding: 0 5px;
-                    margin: 0 5px 10px;
-                    border-bottom: 1px solid #b3b3b3;
-                }
-                .explain-text {
-                    margin: 10px;
-                    font-size: 11px;
-                }
-            }
-        }
-        .captured-image-wrapper {
-            margin-bottom: 100px;
-            .captured-image-Container {
-                width: 295px;
-                margin: 30px auto;
-                filter: drop-shadow(0 0 7.5px #797979);
-                .captured-image {
-                    width: 295px;
-                }
-            }
-            .download-btn {
-                width: 130px;
-                background-color: #95c0ff;
-                font-size: 13px;
-                text-align: center;
-                padding: 10px 20px;
-                margin: 0 auto;
-                border: 1px solid #507cff;
-                border-radius: 5px;
-                .fa-download {
-                    margin-left: -5px;
-                    margin-right: 5px;
-                }
-                a {
-                    color: $color;
-                    text-decoration: none;
-                }
-            }
-        }
-
         .capture-wrapper {
             width: 964px;
             background-color: #fff;
@@ -131,8 +86,7 @@ body {
                     }
                 }
                 .app-title {
-                    // font-size: 58px;sssss
-                    font-size: 49px;
+                    font-size: 48px;
                     font-weight: normal;
                     line-height: 88px;
                     margin-top: 30px;
@@ -219,5 +173,51 @@ body {
                 }
             }
         }
+        
+        .explain-wrapper {
+            margin: 20px 0;
+            .explain-container {
+                .explain-title {
+                    font-size: 18px;
+                    padding: 0 5px;
+                    margin: 0 5px 10px;
+                    border-bottom: 1px solid #b3b3b3;
+                }
+                .explain-text {
+                    margin: 10px;
+                    font-size: 11px;
+                }
+            }
+        }
+        .captured-image-wrapper {
+            margin-bottom: 100px;
+            .captured-image-Container {
+                width: 295px;
+                margin: 30px auto;
+                filter: drop-shadow(0 0 7.5px #797979);
+                .captured-image {
+                    width: 295px;
+                }
+            }
+            .download-btn {
+                width: 130px;
+                background-color: #95c0ff;
+                font-size: 13px;
+                text-align: center;
+                padding: 10px 20px;
+                margin: 0 auto;
+                border: 1px solid #507cff;
+                border-radius: 5px;
+                .fa-download {
+                    margin-left: -5px;
+                    margin-right: 5px;
+                }
+                a {
+                    color: $color;
+                    text-decoration: none;
+                }
+            }
+        }
+
     }
 }
