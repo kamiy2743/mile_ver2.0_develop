@@ -182,6 +182,12 @@ body main .captured-image-wrapper .captured-image-Container {
 body main .captured-image-wrapper .captured-image-Container .captured-image {
   width: 295px;
 }
+body main .captured-image-wrapper .waiting-text {
+  color: #797979;
+  font-size: 16px;
+  text-align: center;
+  margin: 70px 0;
+}
 body main .captured-image-wrapper .download-btn {
   width: 130px;
   background-color: #95c0ff;

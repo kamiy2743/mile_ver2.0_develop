@@ -7,7 +7,6 @@ function start() {
 
     // ローカルストレージにデータがあれば読み込み
     if (localStorage.data) {
-        console.log(localStorage.data);
         loadLocalData();
     }
 
@@ -80,6 +79,7 @@ function convertToImage() {
         let imageURL = canvas.toDataURL();
         $(".captured-image").attr("src", imageURL);
         $(".captured-image-link").attr("href", imageURL);
+        $(".waiting-text").addClass("none");
     });
     $("#capture").addClass("none");
     $(".captured-image").removeClass("none");
