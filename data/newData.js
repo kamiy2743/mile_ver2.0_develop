@@ -51,7 +51,7 @@ const ITEM_DATAS = [
             {
                 name:"まるいがいとう",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             }
         ]
@@ -117,13 +117,13 @@ const ITEM_DATAS = [
             {
                 name:"アールながいとう",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"かだん",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             }
         ]
@@ -179,25 +179,25 @@ const ITEM_DATAS = [
             {
                 name:"ひろばのアーチ",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"ひろばのとけい",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"バレーのネット",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"ふうしゃ",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             }
         ]
@@ -230,19 +230,19 @@ const ITEM_DATAS = [
             {
                 name:"こうえんの<br>ふんすい",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"ひろばの<br>バルーンワゴン",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"パーゴラ",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             }
         ]
@@ -290,37 +290,37 @@ const ITEM_DATAS = [
             {
                 name:"ひろばの<br>エアゆうぐ",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"ひろばのきしゃ",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"ひろばの<br>ゲームやたい",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"ひろばの<br>コーヒーカップ",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"ガゼボ",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"あずまや",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             }
         ]
@@ -331,13 +331,13 @@ const ITEM_DATAS = [
             {
                 name:"ひろばの<br>かんらんしゃ",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             },
             {
                 name:"ひろばの<br>メリーゴーランド",
                 attrs:[
-                    {img:"",info:""}
+                    {img:"FtrFoodmachine_Remake_0_0",info:""}
                 ]
             }
         ]
