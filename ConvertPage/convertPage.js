@@ -132,6 +132,7 @@ function convertToImage() {
         $(".captured-image[imageIndex='1']").attr("src", imageURL);
         $(".captured-image-link[imageIndex='1']").attr("href", imageURL);
         $(".waiting-text").addClass("none");
+        $(".download-btn-container").removeClass("none")
     });
     $("#capture2").addClass("none");
 }
