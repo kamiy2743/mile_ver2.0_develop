@@ -7,7 +7,6 @@ function start() {
 
     // ローカルストレージにデータがあれば読み込み
     if (localStorage.data) {
-        console.log(localStorage.data);
         loadLocalData();
     }
 }
