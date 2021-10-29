@@ -51,7 +51,7 @@ const ITEM_DATAS = [
             {
                 name:"まるいがいとう",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             }
         ]
@@ -117,13 +117,13 @@ const ITEM_DATAS = [
             {
                 name:"アールながいとう",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"かだん",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             }
         ]
@@ -179,25 +179,25 @@ const ITEM_DATAS = [
             {
                 name:"ひろばのアーチ",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"ひろばのとけい",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"バレーのネット",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"ふうしゃ",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             }
         ]
@@ -230,19 +230,19 @@ const ITEM_DATAS = [
             {
                 name:"こうえんの<br>ふんすい",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"ひろばの<br>バルーンワゴン",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"パーゴラ",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             }
         ]
@@ -290,37 +290,37 @@ const ITEM_DATAS = [
             {
                 name:"ひろばの<br>エアゆうぐ",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"ひろばのきしゃ",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"ひろばの<br>ゲームやたい",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"ひろばの<br>コーヒーカップ",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"ガゼボ",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"あずまや",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             }
         ]
@@ -331,13 +331,13 @@ const ITEM_DATAS = [
             {
                 name:"ひろばの<br>かんらんしゃ",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
                 name:"ひろばの<br>メリーゴーランド",
                 attrs:[
-                    {img:"FtrFoodmachine_Remake_0_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             }
         ]
