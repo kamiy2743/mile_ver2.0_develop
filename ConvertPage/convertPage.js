@@ -20,6 +20,7 @@ function generateItemElements() {
     var rawElement1 = "";
     var rawElement2 = "";
     var index = 0;
+    var bgcolor = -1;
     
     ITEM_DATAS.forEach(item_datas => {
         // マイル表示部分
@@ -31,10 +32,11 @@ function generateItemElements() {
                 </tr>
             `;
     
-            item_datas.items.forEach(items => {
+            item_datas.items.forEach((items, i) => {
                 // アイテム名表示部分
                 var item_name = items.name;
-                rawElement1 += `<tr><td class="item-name">${item_name}</td>`;
+                var td_bottom = i == item_datas.items.length-1 ? "td-bottom" : "";
+                rawElement1 += `<tr><td class="item-name ${td_bottom}">${item_name}</td>`;
     
                 // 8個追加
                 for (var i = 0; i < 8; i++) {
@@ -45,7 +47,7 @@ function generateItemElements() {
                         var img = attrs.img;
                         var info_text = attrs.info;
                         rawElement1 += `
-                            <td class="item-container">
+                            <td class="item-container ${td_bottom}">
                                 <div class="item-main" index="${index++}" state="0">
                                     <img class="item-image" src="../image/${img}.png">
                                     <p class="info-text">${info_text}</p>
@@ -54,7 +56,7 @@ function generateItemElements() {
                         `;
                     } else {
                         rawElement1 += `
-                            <td class="item-container">
+                            <td class="item-container ${td_bottom}">
                                 <div class="item-main item-empty" state="0">
                                 </div>
                             </td>
@@ -69,10 +71,11 @@ function generateItemElements() {
                 </tr>
             `;
     
-            item_datas.items.forEach(items => {
+            item_datas.items.forEach((items, i) => {
                 // アイテム名表示部分
                 var item_name = items.name;
-                rawElement2 += `<tr><td class="item-name">${item_name}</td>`;
+                var td_bottom = i == item_datas.items.length-1 ? "td-bottom" : "";
+                rawElement2 += `<tr><td class="item-name ${td_bottom}">${item_name}</td>`;
     
                 // 8個追加
                 for (var i = 0; i < 8; i++) {
@@ -83,7 +86,7 @@ function generateItemElements() {
                         var img = attrs.img;
                         var info_text = attrs.info;
                         rawElement2 += `
-                            <td class="item-container">
+                            <td class="item-container ${td_bottom}">
                                 <div class="item-main" index="${index++}" state="0">
                                     <img class="item-image" src="../image/${img}.png">
                                     <p class="info-text">${info_text}</p>
@@ -92,7 +95,7 @@ function generateItemElements() {
                         `;
                     } else {
                         rawElement2 += `
-                            <td class="item-container">
+                            <td class="item-container ${td_bottom}">
                                 <div class="item-main item-empty" state="0">
                                 </div>
                             </td>
