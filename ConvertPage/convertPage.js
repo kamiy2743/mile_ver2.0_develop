@@ -121,16 +121,16 @@ function convertToImage() {
     $("#capture1").removeClass("none");
     html2canvas(document.querySelector("#capture1")).then(canvas => { 
         let imageURL = canvas.toDataURL();
-        $("#capture1 .captured-image").attr("src", imageURL);
-        $("#capture1 .captured-image-link").attr("href", imageURL);
+        $(".captured-image[imageIndex='0']").attr("src", imageURL);
+        $(".captured-image-link[imageIndex='0']").attr("href", imageURL);
     });
     $("#capture1").addClass("none");
     // 2枚目
     $("#capture2").removeClass("none");
     html2canvas(document.querySelector("#capture2")).then(canvas => { 
         let imageURL = canvas.toDataURL();
-        $("#capture2 .captured-image").attr("src", imageURL);
-        $("#capture2 .captured-image-link").attr("href", imageURL);
+        $(".captured-image[imageIndex='1']").attr("src", imageURL);
+        $(".captured-image-link[imageIndex='1']").attr("href", imageURL);
         $(".waiting-text").addClass("none");
     });
     $("#capture2").addClass("none");
