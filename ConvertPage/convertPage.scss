@@ -160,7 +160,8 @@ body {
                         margin: 2.5px;
                         border-radius: 20px;
                         .item-image {
-                            height: 56px;
+                            max-width: 56px;
+                            max-height: 56px;
                             margin-top: 2px;
                             margin-left: 5px;
                         }

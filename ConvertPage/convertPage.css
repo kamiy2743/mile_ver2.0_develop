@@ -188,7 +188,8 @@ body main .capture-wrapper .capture-table .item-container .item-main {
 }
 
 body main .capture-wrapper .capture-table .item-container .item-main .item-image {
-  height: 56px;
+  max-width: 56px;
+  max-height: 56px;
   margin-top: 2px;
   margin-left: 5px;
 }
