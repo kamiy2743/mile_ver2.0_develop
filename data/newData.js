@@ -3,14 +3,7 @@ const ITEM_DATAS = [
         mile:1000,
         items:[
             {
-                name:"電柱",
-                attrs:[
-                    {img:"FtrTelephonepole_Remake_0_0",info:"広告なし"},
-                    {img:"FtrTelephonepole_Remake_1_0",info:"広告あり"}
-                ]
-            },
-            {
-                name:"街灯",
+                name:"がいとう",
                 attrs:[
                     {img:"FtrStreetlamp_Remake_0_0",info:""},
                     {img:"FtrStreetlamp_Remake_1_0",info:"ちゃいろ"},
@@ -19,7 +12,7 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"仮設トイレ",
+                name:"かせつトイレ",
                 attrs:[
                     {img:"FtrWCPortable_Remake_0_0",info:""},
                     {img:"FtrWCPortable_Remake_1_0",info:""},
@@ -29,7 +22,7 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"工事看板",
+                name:"こうじちゅう<br>かんばん",
                 attrs:[
                     {img:"FtrSignConstruction_Remake_3_0",info:""},
                     {img:"FtrSignConstruction_Remake_4_0",info:""},
@@ -39,7 +32,38 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"ビーチの監視台",
+                name:"さんかく<br>トピアリー",
+                attrs:[
+                    {img:"logo1",info:""}
+                ]
+            },
+            {
+                name:"しょうかせん",
+                attrs:[
+                    {img:"logo1",info:""}
+                ]
+            },
+            {
+                name:"スチールの<br>ゴミばこ",
+                attrs:[
+                    {img:"logo1",info:""}
+                ]
+            },
+            {
+                name:"スチールフェンス",
+                attrs:[
+                    {img:"logo1",info:""}
+                ]
+            },
+            {
+                name:"でんちゅう",
+                attrs:[
+                    {img:"FtrTelephonepole_Remake_0_0",info:"広告なし"},
+                    {img:"FtrTelephonepole_Remake_1_0",info:"広告あり"}
+                ]
+            },
+            {
+                name:"ビーチの<br>かんしだい",
                 attrs:[
                     {img:"FtrMonitoringchair_Remake_0_0",info:""},
                     {img:"FtrMonitoringchair_Remake_1_0",info:""},
@@ -60,7 +84,13 @@ const ITEM_DATAS = [
         mile:2000,
         items:[
             {
-                name:"お菓子の自販機",
+                name:"アールながいとう",
+                attrs:[
+                    {img:"logo1",info:""}
+                ]
+            },
+            {
+                name:"おかしのじはんき",
                 attrs:[
                     {img:"FtrFoodmachine_Remake_0_0",info:""},
                     {img:"FtrFoodmachine_Remake_1_0",info:""},
@@ -69,7 +99,13 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"観光望遠鏡",
+                name:"かだん",
+                attrs:[
+                    {img:"logo1",info:""}
+                ]
+            },
+            {
+                name:"かんこう<br>ぼうえんきょう",
                 attrs:[
                     {img:"FtrTelescopeSightseeing_Remake_0_0",info:""},
                     {img:"FtrTelescopeSightseeing_Remake_1_0",info:""},
@@ -79,7 +115,7 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"自販機",
+                name:"じはんき",
                 attrs:[
                     {img:"FtrDrinkmachine_Remake_0_0",info:""},
                     {img:"FtrDrinkmachine_Remake_1_0",info:""},
@@ -90,7 +126,7 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"スプリング遊具",
+                name:"スプリングゆうぐ",
                 attrs:[
                     {img:"FtrSpringrider_Remake_0_0",info:""},
                     {img:"FtrSpringrider_Remake_1_0",info:""},
@@ -115,24 +151,24 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"アールながいとう",
+                name:"プラスチックの<br>ベンチ",
                 attrs:[
                     {img:"logo1",info:""}
                 ]
             },
             {
-                name:"かだん",
+                name:"ほこうしゃ<br>しんごうき",
                 attrs:[
                     {img:"logo1",info:""}
                 ]
-            }
+            },
         ]
     },
     {
         mile:2400,
         items:[
             {
-                name:"公園の時計",
+                name:"こうえんのとけい",
                 attrs:[
                     {img:"FtrParkclock_Remake_0_0",info:"くろ"},
                     {img:"FtrParkclock_Remake_1_0",info:""},
@@ -141,7 +177,13 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"電話ボックス",
+                name:"そぼくな<br>パーティーライト",
+                attrs:[
+                    {img:"logo1",info:""}
+                ]
+            },
+            {
+                name:"でんわボックス",
                 attrs:[
                     {img:"FtrTelephonebox_Remake_0_0",info:""},
                     {img:"FtrTelephonebox_Remake_1_0",info:""},
@@ -152,20 +194,30 @@ const ITEM_DATAS = [
                     {img:"FtrTelephonebox_Remake_6_0",info:""},
                     {img:"FtrTelephonebox_Remake_7_0",info:""}   
                 ]
-            }
+            },
+            {
+                name:"はたつきの<br>がいとう",
+                attrs:[
+                    {img:"logo1",info:""}
+                ]
+            },
+            {
+                name:"ひろばのベンチ",
+                attrs:[
+                    {img:"logo1",info:""}
+                ]
+            },
+            {
+                name:"まるいトピアリー",
+                attrs:[
+                    {img:"logo1",info:""}
+                ]
+            },
         ]
     },
     {
         mile:3000,
         items:[
-            {
-                name:"わたあめの屋台",
-                attrs:[
-                    {img:"FtrCottoncandymachine_Remake_0_0",info:""},
-                    {img:"FtrCottoncandymachine_Remake_1_0",info:""},
-                    {img:"FtrCottoncandymachine_Remake_2_0",info:""}
-                ]
-            },
             {
                 name:"ジャングルジム",
                 attrs:[
@@ -174,6 +226,12 @@ const ITEM_DATAS = [
                     {img:"FtrJunglegym_Remake_2_0",info:""},
                     {img:"FtrJunglegym_Remake_3_0",info:""},
                     {img:"FtrJunglegym_Remake_4_0",info:""}   
+                ]
+            },
+            {
+                name:"バレーのネット",
+                attrs:[
+                    {img:"logo1",info:""}
                 ]
             },
             {
@@ -189,22 +247,30 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"バレーのネット",
+                name:"ふうしゃ",
                 attrs:[
                     {img:"logo1",info:""}
                 ]
             },
             {
-                name:"ふうしゃ",
+                name:"わたあめのやたい",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrCottoncandymachine_Remake_0_0",info:""},
+                    {img:"FtrCottoncandymachine_Remake_1_0",info:""},
+                    {img:"FtrCottoncandymachine_Remake_2_0",info:""}
                 ]
-            }
+            },
         ]
     },
     {
         mile:4000,
         items:[
+            {
+                name:"こうえんの<br>ふんすい",
+                attrs:[
+                    {img:"logo1",info:""}
+                ]
+            },
             {
                 name:"ソーラーパネル",
                 attrs:[
@@ -213,10 +279,9 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"風力発電",
+                name:"パーゴラ",
                 attrs:[
-                    {img:"FtrWindturbine_Remake_0_0",info:"ブルー"},
-                    {img:"FtrWindturbine_Remake_1_0",info:"レッド"}
+                    {img:"logo1",info:""}
                 ]
             },
             {
@@ -228,41 +293,31 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"こうえんの<br>ふんすい",
-                attrs:[
-                    {img:"logo1",info:""}
-                ]
-            },
-            {
                 name:"ひろばの<br>バルーンワゴン",
                 attrs:[
                     {img:"logo1",info:""}
                 ]
             },
             {
-                name:"パーゴラ",
+                name:"ふうりょく<br>はつでんき",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrWindturbine_Remake_0_0",info:"ブルー"},
+                    {img:"FtrWindturbine_Remake_1_0",info:"レッド"}
                 ]
-            }
+            },
         ]
     },
     {
         mile:5000,
         items:[
             {
-                name:"灯台",
+                name:"あずまや",
                 attrs:[
-                    {img:"FtrLighthouse_Remake_0_0",info:""},
-                    {img:"FtrLighthouse_Remake_1_0",info:""},
-                    {img:"FtrLighthouse_Remake_2_0",info:""},
-                    {img:"FtrLighthouse_Remake_3_0",info:""},
-                    {img:"FtrLighthouse_Remake_4_0",info:""},
-                    {img:"FtrLighthouse_Remake_5_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
-                name:"怪獣",
+                name:"かいじゅう",
                 attrs:[
                     {img:"FtrMonster_Remake_0_0",info:""},
                     {img:"FtrMonster_Remake_1_0",info:""},
@@ -271,20 +326,20 @@ const ITEM_DATAS = [
                 ]
             },
             {
-                name:"プール",
+                name:"ガゼボ",
                 attrs:[
-                    {img:"FtrPool_Remake_0_0",info:""},
-                    {img:"FtrPool_Remake_1_0",info:""},
-                    {img:"FtrPool_Remake_2_0",info:""}
+                    {img:"logo1",info:""}
                 ]
             },
             {
-                name:"まわる<br>コーヒーカップ",
+                name:"とうだい",
                 attrs:[
-                    {img:"FtrTurncup_Remake_0_0",info:""},
-                    {img:"FtrTurncup_Remake_1_0",info:""},
-                    {img:"FtrTurncup_Remake_2_0",info:""},
-                    {img:"FtrTurncup_Remake_3_0",info:""}
+                    {img:"FtrLighthouse_Remake_0_0",info:""},
+                    {img:"FtrLighthouse_Remake_1_0",info:""},
+                    {img:"FtrLighthouse_Remake_2_0",info:""},
+                    {img:"FtrLighthouse_Remake_3_0",info:""},
+                    {img:"FtrLighthouse_Remake_4_0",info:""},
+                    {img:"FtrLighthouse_Remake_5_0",info:""}
                 ]
             },
             {
@@ -308,19 +363,18 @@ const ITEM_DATAS = [
             {
                 name:"ひろばの<br>コーヒーカップ",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrTurncup_Remake_0_0",info:""},
+                    {img:"FtrTurncup_Remake_1_0",info:""},
+                    {img:"FtrTurncup_Remake_2_0",info:""},
+                    {img:"FtrTurncup_Remake_3_0",info:""}
                 ]
             },
             {
-                name:"ガゼボ",
+                name:"プール",
                 attrs:[
-                    {img:"logo1",info:""}
-                ]
-            },
-            {
-                name:"あずまや",
-                attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrPool_Remake_0_0",info:""},
+                    {img:"FtrPool_Remake_1_0",info:""},
+                    {img:"FtrPool_Remake_2_0",info:""}
                 ]
             }
         ]
