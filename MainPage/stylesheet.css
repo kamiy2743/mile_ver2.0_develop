@@ -300,7 +300,8 @@ body main .item-table-wrapper .item-table .item-container .item-main {
 }
 
 body main .item-table-wrapper .item-table .item-container .item-main .item-image {
-  width: 40px;
+  max-width: 40px;
+  max-height: 40px;
   margin-top: 4px;
   margin-left: 5px;
 }
