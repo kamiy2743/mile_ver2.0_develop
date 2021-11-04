@@ -6,9 +6,9 @@ const ITEM_DATAS = [
                 name:"がいとう",
                 attrs:[
                     {img:"FtrStreetlamp_Remake_0_0",info:""},
-                    {img:"FtrStreetlamp_Remake_1_0",info:"ちゃいろ"},
+                    {img:"FtrStreetlamp_Remake_1_0",info:"ブラウン"},
                     {img:"FtrStreetlamp_Remake_2_0",info:""},
-                    {img:"FtrStreetlamp_Remake_3_0",info:"くろ"}
+                    {img:"FtrStreetlamp_Remake_3_0",info:"ブラック"}
                 ]
             },
             {
@@ -34,25 +34,48 @@ const ITEM_DATAS = [
             {
                 name:"さんかく<br>トピアリー",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrTopiaryCone_Remake_0_0Cropped",info:""},
+                    {img:"FtrTopiaryCone_Remake_1_0Cropped",info:""},
+                    {img:"FtrTopiaryCone_Remake_2_0Cropped",info:""},
+                    {img:"FtrTopiaryCone_Remake_3_0Cropped",info:""},
                 ]
             },
             {
                 name:"しょうかせん",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrFireplug_Remake_0_0Cropped",info:""},
+                    {img:"FtrFireplug_Remake_1_0Cropped",info:""},
+                    {img:"FtrFireplug_Remake_2_0Cropped",info:""},
+                    {img:"FtrFireplug_Remake_3_0Cropped",info:""},
+                    {img:"FtrFireplug_Remake_4_0Cropped",info:""},
+                    {img:"FtrFireplug_Remake_5_0Cropped",info:""},
+                    {img:"FtrFireplug_Remake_6_0Cropped",info:""},
                 ]
             },
             {
                 name:"スチールの<br>ゴミばこ",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrTrashboxPublic_Remake_0_0Cropped",info:""},
+                    {img:"FtrTrashboxPublic_Remake_1_0Cropped",info:""},
+                    {img:"FtrTrashboxPublic_Remake_2_0Cropped",info:""},
+                    {img:"FtrTrashboxPublic_Remake_3_0Cropped",info:""},
+                    {img:"FtrTrashboxPublic_Remake_4_0Cropped",info:""},
+                    {img:"FtrTrashboxPublic_Remake_5_0Cropped",info:""},
+                    {img:"FtrTrashboxPublic_Remake_6_0Cropped",info:""},
+                    {img:"FtrTrashboxPublic_Remake_7_0Cropped",info:""},
                 ]
             },
             {
                 name:"スチールフェンス",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrSpectatorFence_Remake_0_0Cropped_result",info:""},
+                    {img:"FtrSpectatorFence_Remake_1_0Cropped_result",info:""},
+                    {img:"FtrSpectatorFence_Remake_2_0Cropped_result",info:""},
+                    {img:"FtrSpectatorFence_Remake_3_0Cropped_result",info:""},
+                    {img:"FtrSpectatorFence_Remake_4_0Cropped_result",info:"ブラック"},
+                    {img:"FtrSpectatorFence_Remake_5_0Cropped_result",info:""},
+                    {img:"FtrSpectatorFence_Remake_6_0Cropped_result",info:"シルバー"},
+                    {img:"FtrSpectatorFence_Remake_7_0Cropped_result",info:"ダメージ"},
                 ]
             },
             {
@@ -75,7 +98,10 @@ const ITEM_DATAS = [
             {
                 name:"まるいがいとう",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrStreetlampRound_Remake_0_0Cropped",info:"ブラック"},
+                    {img:"FtrStreetlampRound_Remake_1_0Cropped",info:""},
+                    {img:"FtrStreetlampRound_Remake_2_0Cropped",info:""},
+                    {img:"FtrStreetlampRound_Remake_3_0Cropped",info:"ブラウン"},
                 ]
             }
         ]
@@ -86,7 +112,10 @@ const ITEM_DATAS = [
             {
                 name:"アールながいとう",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrStreetlampCurve_Remake_0_0Cropped",info:"ブラック"},
+                    {img:"FtrStreetlampCurve_Remake_1_0Cropped",info:""},
+                    {img:"FtrStreetlampCurve_Remake_2_0Cropped",info:"ブラウン"},
+                    {img:"FtrStreetlampCurve_Remake_3_0Cropped-1",info:""},
                 ]
             },
             {
@@ -101,7 +130,10 @@ const ITEM_DATAS = [
             {
                 name:"かだん",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrFlowerbed_Remake_0_0Cropped_result",info:""},
+                    {img:"FtrFlowerbed_Remake_1_0Cropped_result",info:""},
+                    {img:"FtrFlowerbed_Remake_2_0Cropped_result",info:""},
+                    {img:"FtrFlowerbed_Remake_3_0Cropped_result",info:""},
                 ]
             },
             {
@@ -153,13 +185,23 @@ const ITEM_DATAS = [
             {
                 name:"プラスチックの<br>ベンチ",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrBenchPlastic_Remake_0_0Cropped-1",info:""},
+                    {img:"FtrBenchPlastic_Remake_1_0Cropped",info:""},
+                    {img:"FtrBenchPlastic_Remake_2_0Cropped",info:""},
+                    {img:"FtrBenchPlastic_Remake_3_0Cropped",info:""},
+                    {img:"FtrBenchPlastic_Remake_4_0Cropped",info:""},
+                    {img:"FtrBenchPlastic_Remake_5_0Cropped",info:""},
+                    {img:"FtrBenchPlastic_Remake_6_0Cropped",info:""},
                 ]
             },
             {
                 name:"ほこうしゃ<br>しんごうき",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrCrosswalksignal_Remake_0_0Cropped",info:""},
+                    {img:"FtrCrosswalksignal_Remake_1_0Cropped",info:""},
+                    {img:"FtrCrosswalksignal_Remake_2_0Cropped",info:""},
+                    {img:"FtrCrosswalksignal_Remake_3_0Cropped",info:""},
+                    {img:"FtrCrosswalksignal_Remake_4_0Cropped",info:""},
                 ]
             },
         ]
@@ -170,16 +212,19 @@ const ITEM_DATAS = [
             {
                 name:"こうえんのとけい",
                 attrs:[
-                    {img:"FtrParkclock_Remake_0_0",info:"くろ"},
+                    {img:"FtrParkclock_Remake_0_0",info:"ブラック"},
                     {img:"FtrParkclock_Remake_1_0",info:""},
                     {img:"FtrParkclock_Remake_2_0",info:""},
-                    {img:"FtrParkclock_Remake_3_0",info:"ちゃいろ"}
+                    {img:"FtrParkclock_Remake_3_0",info:"ブラウン"}
                 ]
             },
             {
                 name:"そぼくな<br>パーティーライト",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrPartylightArch_Remake_0_0Cropped",info:"ダーク"},
+                    {img:"FtrPartylightArch_Remake_1_0Cropped",info:"レッド"},
+                    {img:"FtrPartylightArch_Remake_2_0Cropped",info:""},
+                    {img:"FtrPartylightArch_Remake_3_0Cropped",info:""},
                 ]
             },
             {
@@ -198,19 +243,30 @@ const ITEM_DATAS = [
             {
                 name:"はたつきの<br>がいとう",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrStreetlampFlag_Remake_0_0Cropped",info:""},
+                    {img:"FtrStreetlampFlag_Remake_1_0Cropped",info:""},
+                    {img:"FtrStreetlampFlag_Remake_2_0Cropped",info:""},
+                    {img:"FtrStreetlampFlag_Remake_3_0Cropped",info:""},
+                    {img:"FtrStreetlampFlag_Remake_4_0Cropped",info:""},
+                    {img:"FtrStreetlampFlag_Remake_5_0Cropped",info:""},
                 ]
             },
             {
                 name:"ひろばのベンチ",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"Ftr8fairBench_Remake_0_0Cropped",info:""},
+                    {img:"Ftr8fairBench_Remake_1_0Cropped",info:""},
+                    {img:"Ftr8fairBench_Remake_2_0Cropped",info:""},
+                    {img:"Ftr8fairBench_Remake_3_0Cropped",info:""},
                 ]
             },
             {
                 name:"まるいトピアリー",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrTopiaryRound_Remake_0_0Cropped",info:""},
+                    {img:"FtrTopiaryRound_Remake_1_0Cropped",info:""},
+                    {img:"FtrTopiaryRound_Remake_2_0Cropped",info:""},
+                    {img:"FtrTopiaryRound_Remake_3_0Cropped",info:""},
                 ]
             },
         ]
@@ -231,25 +287,40 @@ const ITEM_DATAS = [
             {
                 name:"バレーのネット",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrValleynet_Remake_0_0Cropped",info:""},
+                    {img:"FtrValleynet_Remake_1_0Cropped",info:"グリーン"},
+                    {img:"FtrValleynet_Remake_2_0Cropped",info:"ブラック"},
+                    {img:"FtrValleynet_Remake_3_0Cropped",info:"ブルー"},
+                    {img:"FtrValleynet_Remake_4_0Cropped",info:""},
                 ]
             },
             {
                 name:"ひろばのアーチ",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"Ftr8fairArch_Remake_0_0Cropped",info:""},
+                    {img:"Ftr8fairArch_Remake_1_0Cropped",info:""},
+                    {img:"Ftr8fairArch_Remake_2_0Cropped",info:""},
+                    {img:"Ftr8fairArch_Remake_3_0Cropped",info:""},
                 ]
             },
             {
                 name:"ひろばのとけい",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"Ftr8fairClock_Remake_0_0Cropped",info:""},
+                    {img:"Ftr8fairClock_Remake_1_0Cropped",info:""},
+                    {img:"Ftr8fairClock_Remake_2_0Cropped",info:""},
+                    {img:"Ftr8fairClock_Remake_3_0Cropped",info:""},
                 ]
             },
             {
                 name:"ふうしゃ",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrWindmillRetro_Remake_0_0Cropped",info:"ホワイト"},
+                    {img:"FtrWindmillRetro_Remake_1_0Cropped",info:"グリーン"},
+                    {img:"FtrWindmillRetro_Remake_2_0Cropped",info:""},
+                    {img:"FtrWindmillRetro_Remake_3_0Cropped",info:""},
+                    {img:"FtrWindmillRetro_Remake_4_0Cropped",info:"ブラック"},
+                    {img:"FtrWindmillRetro_Remake_5_0Cropped",info:"ダメージ"},
                 ]
             },
             {
@@ -265,12 +336,12 @@ const ITEM_DATAS = [
     {
         mile:4000,
         items:[
-            {
-                name:"こうえんの<br>ふんすい",
-                attrs:[
-                    {img:"logo1",info:""}
-                ]
-            },
+            // {
+            //     name:"こうえんの<br>ふんすい",
+            //     attrs:[
+            //         {img:"logo1",info:""}
+            //     ]
+            // },
             {
                 name:"ソーラーパネル",
                 attrs:[
@@ -281,7 +352,13 @@ const ITEM_DATAS = [
             {
                 name:"パーゴラ",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrPergola_Remake_0_0Cropped",info:""},
+                    {img:"FtrPergola_Remake_1_0Cropped",info:""},
+                    {img:"FtrPergola_Remake_2_0Cropped",info:""},
+                    {img:"FtrPergola_Remake_3_0Cropped",info:""},
+                    {img:"FtrPergola_Remake_4_0Cropped",info:""},
+                    {img:"FtrPergola_Remake_5_0Cropped",info:""},
+                    {img:"FtrPergola_Remake_6_0Cropped",info:""},
                 ]
             },
             {
@@ -295,7 +372,10 @@ const ITEM_DATAS = [
             {
                 name:"ひろばの<br>バルーンワゴン",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"Ftr8fairWagon_Remake_0_0Cropped",info:""},
+                    {img:"Ftr8fairWagon_Remake_1_0Cropped",info:""},
+                    {img:"Ftr8fairWagon_Remake_2_0Cropped",info:""},
+                    {img:"Ftr8fairWagon_Remake_3_0Cropped",info:""},
                 ]
             },
             {
@@ -313,7 +393,10 @@ const ITEM_DATAS = [
             {
                 name:"あずまや",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrJapanGazebo_Remake_0_0Cropped",info:""},
+                    {img:"FtrJapanGazebo_Remake_1_0Cropped",info:""},
+                    {img:"FtrJapanGazebo_Remake_2_0Cropped",info:""},
+                    {img:"FtrJapanGazebo_Remake_3_0Cropped",info:""},
                 ]
             },
             {
@@ -328,7 +411,14 @@ const ITEM_DATAS = [
             {
                 name:"ガゼボ",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"FtrWesternGazebo_Remake_0_0Cropped",info:""},
+                    {img:"FtrWesternGazebo_Remake_1_0Cropped",info:""},
+                    {img:"FtrWesternGazebo_Remake_2_0Cropped",info:""},
+                    {img:"FtrWesternGazebo_Remake_3_0Cropped",info:""},
+                    {img:"FtrWesternGazebo_Remake_4_0Cropped",info:""},
+                    {img:"FtrWesternGazebo_Remake_5_0Cropped",info:""},
+                    {img:"FtrWesternGazebo_Remake_6_0Cropped",info:""},
+                    {img:"FtrWesternGazebo_Remake_7_0Cropped",info:""},
                 ]
             },
             {
@@ -345,19 +435,28 @@ const ITEM_DATAS = [
             {
                 name:"ひろばの<br>エアゆうぐ",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"Ftr8fairBalloon_Remake_0_0Cropped",info:""},
+                    {img:"Ftr8fairBalloon_Remake_1_0Cropped",info:""},
+                    {img:"Ftr8fairBalloon_Remake_2_0Cropped",info:""},
+                    {img:"Ftr8fairBalloon_Remake_3_0Cropped",info:""},
                 ]
             },
             {
                 name:"ひろばのきしゃ",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"Ftr8fairVehicle_Remake_0_0Cropped",info:""},
+                    {img:"Ftr8fairVehicle_Remake_1_0Cropped",info:""},
+                    {img:"Ftr8fairVehicle_Remake_2_0Cropped",info:""},
+                    {img:"Ftr8fairVehicle_Remake_3_0Cropped",info:""},
                 ]
             },
             {
                 name:"ひろばの<br>ゲームやたい",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"Ftr8fairStall_Remake_0_0Cropped",info:""},
+                    {img:"Ftr8fairStall_Remake_1_0Cropped",info:""},
+                    {img:"Ftr8fairStall_Remake_2_0Cropped",info:""},
+                    {img:"Ftr8fairStall_Remake_3_0Cropped",info:""},
                 ]
             },
             {
@@ -385,13 +484,60 @@ const ITEM_DATAS = [
             {
                 name:"ひろばの<br>かんらんしゃ",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"Ftr8fairFerriswheel_Remake_0_0Cropped",info:""},
+                    {img:"Ftr8fairFerriswheel_Remake_1_0Cropped",info:""},
+                    {img:"Ftr8fairFerriswheel_Remake_2_0Cropped",info:""},
+                    {img:"Ftr8fairFerriswheel_Remake_3_0Cropped",info:""}
                 ]
             },
             {
                 name:"ひろばの<br>メリーゴーランド",
                 attrs:[
-                    {img:"logo1",info:""}
+                    {img:"Ftr8fairMerrygoround_Remake_0_0Cropped",info:""},
+                    {img:"Ftr8fairMerrygoround_Remake_1_0Cropped",info:""},
+                    {img:"Ftr8fairMerrygoround_Remake_2_0Cropped",info:""},
+                    {img:"Ftr8fairMerrygoround_Remake_3_0Cropped",info:""},
+                ]
+            },
+            {
+                name:"もくせいの<br>ものおき",
+                attrs:[
+                    {img:"FtrStorageWood_Remake_0_0Cropped_result",info:""},
+                    {img:"FtrStorageWood_Remake_1_0Cropped_result",info:""},
+                    {img:"FtrStorageWood_Remake_2_0Cropped_result",info:""},
+                    {img:"FtrStorageWood_Remake_3_0Cropped_result",info:""},
+                    {img:"FtrStorageWood_Remake_4_0Cropped_result",info:""},
+                    {img:"FtrStorageWood_Remake_5_0Cropped_result",info:""},
+                    {img:"FtrStorageWood_Remake_6_0Cropped_result",info:""},
+                    {img:"FtrStorageWood_Remake_7_0Cropped_result",info:""}
+                ]
+            },
+            {
+                name:"ものおき",
+                attrs:[
+                    {img:"FtrStorage_Remake_0_0Cropped",info:""},
+                    {img:"FtrStorage_Remake_1_0Cropped",info:""},
+                    {img:"FtrStorage_Remake_2_0Cropped",info:""},
+                    {img:"FtrStorage_Remake_3_0Cropped",info:""},
+                    {img:"FtrStorage_Remake_4_0Cropped",info:""},
+                    {img:"FtrStorage_Remake_5_0Cropped",info:""},
+                    {img:"FtrStorage_Remake_6_0Cropped",info:""},
+                    {img:"FtrStorage_Remake_7_0Cropped",info:""}
+                ]
+            }
+        ]
+    },
+    {
+        mile:9900,
+        items:[
+            {
+                name:"ATM",
+                attrs:[
+                    {img:"FtrATM_Remake_0_0Cropped",info:""},
+                    {img:"FtrATM_Remake_1_0Cropped",info:""},
+                    {img:"FtrATM_Remake_2_0Cropped",info:""},
+                    {img:"FtrATM_Remake_3_0Cropped",info:""},
+                    {img:"FtrATM_Remake_4_0Cropped",info:""}
                 ]
             }
         ]
