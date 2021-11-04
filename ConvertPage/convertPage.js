@@ -25,7 +25,7 @@ function generateItemElements() {
     ITEM_DATAS.forEach(item_datas => {
         // マイル表示部分
         var mile = item_datas.mile;
-        if (mile <= 3000) {
+        if (mile <= 2400) {
             rawElement1 += `
                 <tr>
                     <td class="mile-title" rowspan="${item_datas.items.length + 1}"><p>${mile}<br><span>マイル</span></p></td>
