@@ -188,9 +188,9 @@ body main .capture-wrapper .capture-table .item-container .item-main {
 }
 
 body main .capture-wrapper .capture-table .item-container .item-main .item-image {
+  height: 56px;
   margin-top: 2px;
   margin-left: 5px;
-  width: 56px;
 }
 
 body main .capture-wrapper .capture-table .item-container .item-main .info-text {
